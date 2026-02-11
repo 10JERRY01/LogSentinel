@@ -1,0 +1,4 @@
+{"service":"test","level":"info","message":"hello","timestamp":"2026-02-11T12:46:49+05:30"}
+{"service":"auth-service","level":"CRITICAL","message":"SQL Injection Attempt Detected: SELECT * FROM users WHERE password = OR 1=1; DROP TABLE users; -- This is a very long message indicating a potential security breach attempt.","timestamp":"2026-02-11T13:31:44+05:30"}
+{"service":"auth-service","level":"CRITICAL","message":"SQL Injection Attempt Detected: SELECT * FROM users WHERE password = OR 1=1; DROP TABLE users; -- This is a very long message indicating a potential security breach attempt.","timestamp":"2026-02-11T13:31:44+05:30"}
+{"service":"auth-service","level":"CRITICAL","message":"SQL Injection Attempt Detected: SELECT * FROM users WHERE password = OR 1=1; DROP TABLE users; -- This is a very long message indicating a potential security breach attempt.","timestamp":"2026-02-11T13:31:44+05:30"}

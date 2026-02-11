@@ -1,0 +1,50 @@
+{"service":"user-service","level":"INFO","message":"Index updated","timestamp":"2026-02-11T13:38:24+05:30"}
+{"service":"database","level":"INFO","message":"Index updated","timestamp":"2026-02-11T13:38:24+05:30"}
+{"service":"database","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:38:24+05:30"}
+{"service":"user-service","level":"WARN","message":"Connection pool busy","timestamp":"2026-02-11T13:38:24+05:30"}
+{"service":"database","level":"WARN","message":"Query took longer than expected (205ms)","timestamp":"2026-02-11T13:38:24+05:30"}
+{"service":"user-service","level":"INFO","message":"Index updated","timestamp":"2026-02-11T13:38:24+05:30"}
+{"service":"database","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:38:24+05:30"}
+{"service":"database","level":"WARN","message":"Connection pool busy","timestamp":"2026-02-11T13:38:25+05:30"}
+{"service":"payment-service","level":"INFO","message":"Health check passed","timestamp":"2026-02-11T13:38:25+05:30"}
+{"service":"payment-service","level":"CRITICAL","message":"SQL Injection Attempt Detected: SELECT * FROM users WHERE password = OR 1=1; DROP TABLE users; -- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","timestamp":"2026-02-11T13:38:25+05:30"}
+{"service":"database","level":"WARN","message":"Connection pool busy","timestamp":"2026-02-11T13:38:25+05:30"}
+{"service":"database","level":"WARN","message":"Query took longer than expected (205ms)","timestamp":"2026-02-11T13:38:25+05:30"}
+{"service":"database","level":"INFO","message":"Fetched user profile","timestamp":"2026-02-11T13:38:25+05:30"}
+{"service":"user-service","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:38:25+05:30"}
+{"service":"auth-service","level":"INFO","message":"Index updated","timestamp":"2026-02-11T13:38:25+05:30"}
+{"service":"database","level":"INFO","message":"Health check passed","timestamp":"2026-02-11T13:38:25+05:30"}
+{"service":"database","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:38:26+05:30"}
+{"service":"user-service","level":"INFO","message":"Cache refreshed","timestamp":"2026-02-11T13:38:26+05:30"}
+{"service":"user-service","level":"INFO","message":"Fetched user profile","timestamp":"2026-02-11T13:38:26+05:30"}
+{"service":"database","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:38:26+05:30"}
+{"service":"user-service","level":"WARN","message":"Rate limit approaching for user 123","timestamp":"2026-02-11T13:38:26+05:30"}
+{"service":"user-service","level":"WARN","message":"Rate limit approaching for user 123","timestamp":"2026-02-11T13:38:26+05:30"}
+{"service":"auth-service","level":"WARN","message":"Connection pool busy","timestamp":"2026-02-11T13:38:26+05:30"}
+{"service":"auth-service","level":"WARN","message":"Query took longer than expected (205ms)","timestamp":"2026-02-11T13:38:26+05:30"}
+{"service":"payment-service","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:38:26+05:30"}
+{"service":"payment-service","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:38:26+05:30"}
+{"service":"user-service","level":"INFO","message":"Index updated","timestamp":"2026-02-11T13:38:27+05:30"}
+{"service":"database","level":"INFO","message":"Cache refreshed","timestamp":"2026-02-11T13:38:27+05:30"}
+{"service":"user-service","level":"WARN","message":"Query took longer than expected (205ms)","timestamp":"2026-02-11T13:38:27+05:30"}
+{"service":"auth-service","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:38:27+05:30"}
+{"service":"payment-service","level":"INFO","message":"Health check passed","timestamp":"2026-02-11T13:38:27+05:30"}
+{"service":"auth-service","level":"WARN","message":"Disk usage at 85%","timestamp":"2026-02-11T13:38:27+05:30"}
+{"service":"auth-service","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:38:27+05:30"}
+{"service":"database","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:38:27+05:30"}
+{"service":"user-service","level":"INFO","message":"Cache refreshed","timestamp":"2026-02-11T13:38:27+05:30"}
+{"service":"user-service","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:38:28+05:30"}
+{"service":"auth-service","level":"INFO","message":"Cache refreshed","timestamp":"2026-02-11T13:38:28+05:30"}
+{"service":"payment-service","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:38:28+05:30"}
+{"service":"payment-service","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:38:28+05:30"}
+{"service":"payment-service","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:38:28+05:30"}
+{"service":"payment-service","level":"INFO","message":"Health check passed","timestamp":"2026-02-11T13:38:28+05:30"}
+{"service":"payment-service","level":"INFO","message":"Health check passed","timestamp":"2026-02-11T13:38:28+05:30"}
+{"service":"payment-service","level":"WARN","message":"Rate limit approaching for user 123","timestamp":"2026-02-11T13:38:28+05:30"}
+{"service":"database","level":"WARN","message":"Disk usage at 85%","timestamp":"2026-02-11T13:38:28+05:30"}
+{"service":"user-service","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:38:28+05:30"}
+{"service":"payment-service","level":"INFO","message":"Fetched user profile","timestamp":"2026-02-11T13:38:29+05:30"}
+{"service":"payment-service","level":"CRITICAL","message":"SQL Injection Attempt Detected: SELECT * FROM users WHERE password = OR 1=1; DROP TABLE users; -- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","timestamp":"2026-02-11T13:38:29+05:30"}
+{"service":"auth-service","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:38:29+05:30"}
+{"service":"user-service","level":"INFO","message":"Fetched user profile","timestamp":"2026-02-11T13:38:29+05:30"}
+{"service":"user-service","level":"INFO","message":"Index updated","timestamp":"2026-02-11T13:38:29+05:30"}

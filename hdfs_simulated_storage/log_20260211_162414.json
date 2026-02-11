@@ -1,0 +1,50 @@
+{"service":"auth-service","level":"INFO","message":"Fetched user profile","timestamp":"2026-02-11T13:41:51+05:30"}
+{"service":"payment-service","level":"INFO","message":"Health check passed","timestamp":"2026-02-11T13:41:51+05:30"}
+{"service":"user-service","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:41:51+05:30"}
+{"service":"auth-service","level":"CRITICAL","message":"Buffer overflow detected in input handling module at offset 0x4432 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","timestamp":"2026-02-11T13:41:51+05:30"}
+{"service":"database","level":"INFO","message":"Index updated","timestamp":"2026-02-11T13:41:51+05:30"}
+{"service":"database","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:41:52+05:30"}
+{"service":"auth-service","level":"ERROR","message":"Buffer overflow detected in input handling module at offset 0x4432 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","timestamp":"2026-02-11T13:41:52+05:30"}
+{"service":"auth-service","level":"INFO","message":"Index updated","timestamp":"2026-02-11T13:41:52+05:30"}
+{"service":"payment-service","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:41:52+05:30"}
+{"service":"user-service","level":"INFO","message":"Cache refreshed","timestamp":"2026-02-11T13:41:52+05:30"}
+{"service":"database","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:41:52+05:30"}
+{"service":"database","level":"INFO","message":"Cache refreshed","timestamp":"2026-02-11T13:41:52+05:30"}
+{"service":"payment-service","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:41:52+05:30"}
+{"service":"auth-service","level":"INFO","message":"Health check passed","timestamp":"2026-02-11T13:41:52+05:30"}
+{"service":"auth-service","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:41:52+05:30"}
+{"service":"payment-service","level":"WARN","message":"Rate limit approaching for user 123","timestamp":"2026-02-11T13:41:53+05:30"}
+{"service":"auth-service","level":"WARN","message":"Query took longer than expected (205ms)","timestamp":"2026-02-11T13:41:53+05:30"}
+{"service":"database","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:41:53+05:30"}
+{"service":"user-service","level":"INFO","message":"Cache refreshed","timestamp":"2026-02-11T13:41:53+05:30"}
+{"service":"auth-service","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:41:53+05:30"}
+{"service":"auth-service","level":"ERROR","message":"Unauthorized root access attempt from IP 192.168.1.55 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","timestamp":"2026-02-11T13:41:53+05:30"}
+{"service":"payment-service","level":"INFO","message":"Fetched user profile","timestamp":"2026-02-11T13:41:53+05:30"}
+{"service":"payment-service","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:41:53+05:30"}
+{"service":"auth-service","level":"CRITICAL","message":"Multiple failed login attempts detected (Brute Force) for admin account xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","timestamp":"2026-02-11T13:41:53+05:30"}
+{"service":"auth-service","level":"INFO","message":"Cache refreshed","timestamp":"2026-02-11T13:41:53+05:30"}
+{"service":"user-service","level":"INFO","message":"Fetched user profile","timestamp":"2026-02-11T13:41:54+05:30"}
+{"service":"auth-service","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:41:54+05:30"}
+{"service":"database","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:41:54+05:30"}
+{"service":"auth-service","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:41:54+05:30"}
+{"service":"payment-service","level":"INFO","message":"Cache refreshed","timestamp":"2026-02-11T13:41:54+05:30"}
+{"service":"auth-service","level":"CRITICAL","message":"Unauthorized root access attempt from IP 192.168.1.55 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","timestamp":"2026-02-11T13:41:54+05:30"}
+{"service":"auth-service","level":"INFO","message":"Health check passed","timestamp":"2026-02-11T13:41:54+05:30"}
+{"service":"auth-service","level":"INFO","message":"Health check passed","timestamp":"2026-02-11T13:41:54+05:30"}
+{"service":"database","level":"ERROR","message":"Buffer overflow detected in input handling module at offset 0x4432 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","timestamp":"2026-02-11T13:41:54+05:30"}
+{"service":"user-service","level":"INFO","message":"Fetched user profile","timestamp":"2026-02-11T13:41:55+05:30"}
+{"service":"payment-service","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:41:55+05:30"}
+{"service":"payment-service","level":"CRITICAL","message":"Buffer overflow detected in input handling module at offset 0x4432 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","timestamp":"2026-02-11T13:41:55+05:30"}
+{"service":"user-service","level":"INFO","message":"Health check passed","timestamp":"2026-02-11T13:41:55+05:30"}
+{"service":"database","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:41:55+05:30"}
+{"service":"auth-service","level":"INFO","message":"Index updated","timestamp":"2026-02-11T13:41:55+05:30"}
+{"service":"user-service","level":"WARN","message":"Connection pool busy","timestamp":"2026-02-11T13:41:55+05:30"}
+{"service":"user-service","level":"CRITICAL","message":"Cross-Site Scripting (XSS) attempt: \u003cscript\u003ealert('xss')\u003c/script\u003e in payload xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","timestamp":"2026-02-11T13:41:55+05:30"}
+{"service":"auth-service","level":"INFO","message":"Fetched user profile","timestamp":"2026-02-11T13:41:55+05:30"}
+{"service":"auth-service","level":"WARN","message":"Connection pool busy","timestamp":"2026-02-11T13:41:55+05:30"}
+{"service":"payment-service","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:41:56+05:30"}
+{"service":"user-service","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:41:56+05:30"}
+{"service":"payment-service","level":"INFO","message":"Cache refreshed","timestamp":"2026-02-11T13:41:56+05:30"}
+{"service":"database","level":"INFO","message":"Transaction completed successfully","timestamp":"2026-02-11T13:41:56+05:30"}
+{"service":"payment-service","level":"INFO","message":"Health check passed","timestamp":"2026-02-11T13:41:56+05:30"}
+{"service":"payment-service","level":"INFO","message":"User login successful","timestamp":"2026-02-11T13:41:56+05:30"}

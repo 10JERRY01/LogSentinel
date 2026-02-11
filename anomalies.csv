@@ -1,0 +1,51 @@
+service,level,message,timestamp,level_score,message_len,hour,anomaly
+auth-service,INFO,Fetched user profile,2026-02-11 13:41:51+05:30,1.0,20,13,-1
+payment-service,INFO,Health check passed,2026-02-11 13:41:51+05:30,1.0,19,13,-1
+user-service,INFO,User login successful,2026-02-11 13:41:51+05:30,1.0,21,13,-1
+auth-service,CRITICAL,Buffer overflow detected in input handling module at offset 0x4432 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,2026-02-11 13:41:51+05:30,0.0,148,13,-1
+database,INFO,Index updated,2026-02-11 13:41:51+05:30,1.0,13,13,-1
+database,INFO,Transaction completed successfully,2026-02-11 13:41:52+05:30,1.0,34,13,-1
+auth-service,ERROR,Buffer overflow detected in input handling module at offset 0x4432 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,2026-02-11 13:41:52+05:30,10.0,144,13,-1
+auth-service,INFO,Index updated,2026-02-11 13:41:52+05:30,1.0,13,13,-1
+payment-service,INFO,User login successful,2026-02-11 13:41:52+05:30,1.0,21,13,-1
+user-service,INFO,Cache refreshed,2026-02-11 13:41:52+05:30,1.0,15,13,-1
+database,INFO,User login successful,2026-02-11 13:41:52+05:30,1.0,21,13,-1
+database,INFO,Cache refreshed,2026-02-11 13:41:52+05:30,1.0,15,13,-1
+payment-service,INFO,Transaction completed successfully,2026-02-11 13:41:52+05:30,1.0,34,13,-1
+auth-service,INFO,Health check passed,2026-02-11 13:41:52+05:30,1.0,19,13,-1
+auth-service,INFO,Transaction completed successfully,2026-02-11 13:41:52+05:30,1.0,34,13,-1
+payment-service,WARN,Rate limit approaching for user 123,2026-02-11 13:41:53+05:30,5.0,35,13,-1
+auth-service,WARN,Query took longer than expected (205ms),2026-02-11 13:41:53+05:30,5.0,39,13,-1
+database,INFO,Transaction completed successfully,2026-02-11 13:41:53+05:30,1.0,34,13,-1
+user-service,INFO,Cache refreshed,2026-02-11 13:41:53+05:30,1.0,15,13,-1
+auth-service,INFO,Transaction completed successfully,2026-02-11 13:41:53+05:30,1.0,34,13,-1
+auth-service,ERROR,Unauthorized root access attempt from IP 192.168.1.55 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,2026-02-11 13:41:53+05:30,10.0,127,13,-1
+payment-service,INFO,Fetched user profile,2026-02-11 13:41:53+05:30,1.0,20,13,-1
+payment-service,INFO,User login successful,2026-02-11 13:41:53+05:30,1.0,21,13,-1
+auth-service,CRITICAL,Multiple failed login attempts detected (Brute Force) for admin account xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,2026-02-11 13:41:53+05:30,0.0,135,13,-1
+auth-service,INFO,Cache refreshed,2026-02-11 13:41:53+05:30,1.0,15,13,-1
+user-service,INFO,Fetched user profile,2026-02-11 13:41:54+05:30,1.0,20,13,-1
+auth-service,INFO,User login successful,2026-02-11 13:41:54+05:30,1.0,21,13,-1
+database,INFO,Transaction completed successfully,2026-02-11 13:41:54+05:30,1.0,34,13,-1
+auth-service,INFO,User login successful,2026-02-11 13:41:54+05:30,1.0,21,13,-1
+payment-service,INFO,Cache refreshed,2026-02-11 13:41:54+05:30,1.0,15,13,-1
+auth-service,CRITICAL,Unauthorized root access attempt from IP 192.168.1.55 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,2026-02-11 13:41:54+05:30,0.0,142,13,-1
+auth-service,INFO,Health check passed,2026-02-11 13:41:54+05:30,1.0,19,13,-1
+auth-service,INFO,Health check passed,2026-02-11 13:41:54+05:30,1.0,19,13,-1
+database,ERROR,Buffer overflow detected in input handling module at offset 0x4432 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,2026-02-11 13:41:54+05:30,10.0,120,13,-1
+user-service,INFO,Fetched user profile,2026-02-11 13:41:55+05:30,1.0,20,13,-1
+payment-service,INFO,User login successful,2026-02-11 13:41:55+05:30,1.0,21,13,-1
+payment-service,CRITICAL,Buffer overflow detected in input handling module at offset 0x4432 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,2026-02-11 13:41:55+05:30,0.0,150,13,-1
+user-service,INFO,Health check passed,2026-02-11 13:41:55+05:30,1.0,19,13,-1
+database,INFO,Transaction completed successfully,2026-02-11 13:41:55+05:30,1.0,34,13,-1
+auth-service,INFO,Index updated,2026-02-11 13:41:55+05:30,1.0,13,13,-1
+user-service,WARN,Connection pool busy,2026-02-11 13:41:55+05:30,5.0,20,13,-1
+user-service,CRITICAL,Cross-Site Scripting (XSS) attempt: <script>alert('xss')</script> in payload xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,2026-02-11 13:41:55+05:30,0.0,179,13,-1
+auth-service,INFO,Fetched user profile,2026-02-11 13:41:55+05:30,1.0,20,13,-1
+auth-service,WARN,Connection pool busy,2026-02-11 13:41:55+05:30,5.0,20,13,-1
+payment-service,INFO,Transaction completed successfully,2026-02-11 13:41:56+05:30,1.0,34,13,-1
+user-service,INFO,User login successful,2026-02-11 13:41:56+05:30,1.0,21,13,-1
+payment-service,INFO,Cache refreshed,2026-02-11 13:41:56+05:30,1.0,15,13,-1
+database,INFO,Transaction completed successfully,2026-02-11 13:41:56+05:30,1.0,34,13,-1
+payment-service,INFO,Health check passed,2026-02-11 13:41:56+05:30,1.0,19,13,-1
+payment-service,INFO,User login successful,2026-02-11 13:41:56+05:30,1.0,21,13,-1

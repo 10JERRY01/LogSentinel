@@ -34,7 +34,7 @@ if [ -f "$LOG_FILE" ]; then
         touch "$LOG_FILE"
         
         # Here is where we would trigger the Python ML script
-        # python3 detect_anomalies.py $HDFS_DIR/$NEW_FILENAME
+        python.exe detect.py
         
     else
         echo "[INFO] File size is within limits. No action taken."
