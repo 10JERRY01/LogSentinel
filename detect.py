@@ -26,9 +26,17 @@ class LogLoader:
         # Read JSON lines into a list
         data = []
         with open(latest_file, 'r') as f:
-            for line in f:
+            for line_num, line in enumerate(f, 1):
                 if line.strip(): # Skip empty lines
-                    data.append(json.loads(line))
+                    try:
+                        data.append(json.loads(line))
+                    except json.JSONDecodeError:
+                        print(f"[WARN] Skipping corrupted JSON at line {line_num} in {latest_file}")
+                        continue
+        
+        if not data:
+             print(f"[WARN] File {latest_file} contained no valid JSON data.")
+             return pd.DataFrame()
         
         return pd.DataFrame(data)
 
@@ -41,17 +49,24 @@ class LogPreprocessor:
             return pd.DataFrame()
 
         # Feature 1: Map 'Level' to a numerical risk score
-        # INFO = 1, WARN = 5, ERROR = 10
-        level_map = {'INFO': 1, 'WARN': 5, 'ERROR': 10}
-        df['level_score'] = df['level'].map(level_map).fillna(0)
+        if 'level' in df.columns:
+            level_map = {'INFO': 1, 'WARN': 5, 'ERROR': 10, 'CRITICAL': 20} # Added CRITICAL
+            df['level_score'] = df['level'].map(level_map).fillna(0)
+        else:
+            df['level_score'] = 0 # Default low risk
 
-        # Feature 2: Length of the log message (Longer messages might be stack traces)
-        df['message_len'] = df['message'].apply(len)
+        # Feature 2: Length of the log message
+        if 'message' in df.columns:
+            df['message_len'] = df['message'].apply(str).apply(len) # Ensure string conversion
+        else:
+            df['message_len'] = 0
 
-        # Feature 3: Time of day (Hour) - extracted from timestamp
-        # We need to handle the timestamp format from Go (RFC3339)
-        df['timestamp'] = pd.to_datetime(df['timestamp'])
-        df['hour'] = df['timestamp'].dt.hour
+        # Feature 3: Time of day
+        if 'timestamp' in df.columns:
+            df['timestamp'] = pd.to_datetime(df['timestamp'], errors='coerce')
+            df['hour'] = df['timestamp'].dt.hour.fillna(0).astype(int)
+        else:
+            df['hour'] = 0
 
         # Return only the numerical columns for the model
         return df[['level_score', 'message_len', 'hour']]
