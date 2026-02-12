@@ -26,3 +26,6 @@ anomalies.csv
 # IDEs
 .vscode/
 .idea/
+
+#INTERVIEW_QA
+INTERVIEW_QA.md
