@@ -1,0 +1,28 @@
+# General
+.DS_Store
+*.log
+*.bak
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+model.pkl
+
+# Go
+ingest.exe
+ingest
+*.test
+*.out
+
+# Project Specific - Generated Data
+hdfs_simulated_storage/
+access_logs_buffer.json
+anomalies.csv
+
+# IDEs
+.vscode/
+.idea/
